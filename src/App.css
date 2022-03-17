@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #242333;
+  background-color: #242335;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -93,6 +93,27 @@ body {
   margin-left: 2px;
 }
 
+#btn {
+  display: block;
+}
+#showWindow {
+  position: fixed;
+  left: -15%;
+  top: 23%;
+  height: 149px;
+  width: 408px;
+  border: 1px solid red;
+  z-index: 999;
+  justify-content: center;
+  background-color: mistyrose;
+  align-items: center;
+  color: black;
+  font-weight: 800;
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+}
+
 .row {
   display: flex;
 }
@@ -106,10 +127,10 @@ body {
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
 }
 
-p.text{
-    margin: 5px 0;
+p.text {
+  margin: 5px 0;
 }
 
-p.text span{
-    color: rgb(158, 248, 158);
+p.text span {
+  color: rgb(158, 248, 158);
 }
